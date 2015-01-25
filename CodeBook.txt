@@ -1,0 +1,9 @@
+Starts with the dataset specified by the project instructions 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The Readme associated with the original dataset describes 561 measurements split into test and training sets.  
+The run_analysis.R script first read in these datasets, applying descriptive names at the time of loading.
+The script then merges the train and test sets to a single set
+Next the measurements with 'mean' or 'std' in the label are selected (discarding the rest)
+Also the readable activity names are applied to each measurement, replacing the activity_id
+The data is finally reshaped to provide a format that is easily summarized and saved in the requested format.

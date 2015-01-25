@@ -1,7 +1,7 @@
 library(dplyr)
 library(reshape2)
 
-setwd("C:\\Users\\Chris\\Dropbox\\School\\Coursera\\Get-Data\\CourseProject\\UCI HAR Dataset")
+#setwd("C:\\Users\\USERNAME\\Dropbox\\School\\Coursera\\Get-Data\\CourseProject\\UCI HAR Dataset")
 
 #Read data to specific data frames matching each file
 
